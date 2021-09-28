@@ -14,6 +14,8 @@ def words_Fiveletters():
     for x in s:
         if x != ' ':
             c = c + 1
+        else:
+            c = 0 #Restart the counter
         if c == 5:
             tc = tc + 1
     #print (tc)
