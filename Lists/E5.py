@@ -26,13 +26,8 @@ def duplicate():
                 if (d == l[k]):
                     a = a + 1 # a is the amount of times the number appears
                 if (a >= 2): # >= 2 to not count the number itself
-                    y = 1    #Flag       
+                    return True     
         a = 0 #Restart the counter
-    if (y != 0):
-        #print("t")
-        return True
-    else:
-        #print("f")
         return False
 
 duplicate()
